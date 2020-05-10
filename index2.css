@@ -1,6 +1,21 @@
-.center {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 50%;
+body {
+    background-image: url(assets/81VStYnDGrL.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-position-y: 11rem;
+}
+.gotoOther {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    text-align: right;
+    float: right;
+    font-weight: normal;
+    padding: 15px;
+    color: black;
+}
+
+.gotoOther:hover {
+    color: royalblue;
 }

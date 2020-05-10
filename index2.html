@@ -6,7 +6,7 @@
         <style>
             #The_beginning {
                 font-weight: bold;
-                font-style: italic;
+                font-family: Arial, Helvetica, sans-serif;
             }
             h2, p, h4{
                 text-align: center;
@@ -17,6 +17,11 @@
                 margin-right: auto;
                 width: 300px;
             }
+            .button_pic {
+                text-align: center;
+                width: 50px;
+                align-content: center;
+            }
         </style>
     </head>
     <body>
@@ -24,7 +29,7 @@
         <div class="alert alert-primary" role="alert">
             <h4 class="alert-heading">Basketball</h4>
             <img src="assets/nba.png" class="center">
-            <p style="font-size: 20px;">Except playing basketball, watching nba game is also one of my favorite entertainment</p>
+            <p style="font-size: 20px;">Except playing basketball, watching nba game is also one of my favorite entertainment.</p>
         </div>
         <div class="alert alert-secondary" role="alert">
             <h4 class="alert-heading">Programming</h4>
@@ -32,9 +37,23 @@
         </div>
         <div class="alert alert-success" role="alert">
             <h4 class="alert-heading">YouTube</h4>
+            <img src="assets/youtube.png" class="center">
         </div>
         <div class="alert alert-danger" role="alert">
             <h4 class="alert-heading">League of Legends</h4>
+            <img src="assets/league.jpg" class="center">
+        </div>
+        <div style="width: 50%; margin: 0 auto;align-content: center;">
+            <h3>Go to other pages~</h3>
+            <form style="display: inline" action="index.html" method="get">
+                <button><img src="assets/homepage.png" class="button_pic"></button>
+            </form>
+            <form style="display: inline" action="index3.html" method="get">
+                <button><img src="assets/cat_icon.jpg" class="button_pic"></button>
+            </form>
+            <form style="display: inline" action="index4.html" method="get">
+                <button><img src="assets/kobe_icon.png" class="button_pic"></button>
+            </form>
         </div>
     </body>
 </html>

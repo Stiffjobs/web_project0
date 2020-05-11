@@ -1,0 +1,32 @@
+$font_fm: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+body {
+    background-image: url(assets/81VStYnDGrL.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-position-y: 11rem;
+}
+.gotoOther {
+    font-family: $font_fm;
+    text-align: right;
+    float: right;
+    font-weight: normal;
+    padding: 15px;
+    color: black;
+}
+.gotoOther:hover {
+    color: royalblue;
+}
+#intro {
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+}
+ul {
+    list-style-type: none;
+}
+#Head_row {
+    font-family: $font_fm;
+}

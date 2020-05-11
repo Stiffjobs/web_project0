@@ -1,7 +1,11 @@
-img {
-    width: 300px;
-    text-align: center;
+ul {
+    list-style-type: none;
 }
-p {
+#mac {
+    float: left;
+    width: 500px;
+}
+ul li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
 }

@@ -1,29 +1,15 @@
-body {
-  background-image: url(assets/81VStYnDGrL.jpg);
-  background-size: 400px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-position-y: 15rem;
-}
-
-.gotoOther {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  text-align: right;
-  float: right;
-  font-weight: normal;
-  padding: 15px;
-  color: black;
-}
-
-.gotoOther:hover {
-  color: royalblue;
-}
-
 #intro {
+  display: grid;
+  grid-template-columns: auto;
   position: relative;
-  bottom: 70%;
-  left: 40%;
+  margin-top: 6%;
+  left: 25%;
+  width: 40rem;
+}
+#jobs {
+  width: 500px;
+  margin-left: 30%;
+  margin-top: 10%;
 }
 
 ul {

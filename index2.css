@@ -4,7 +4,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  background-position-y: 11rem;
+  background-position-y: 15rem;
 }
 
 .gotoOther {
@@ -22,8 +22,8 @@ body {
 
 #intro {
   position: relative;
-  bottom: 30px;
-  left: 35%;
+  bottom: 70%;
+  left: 40%;
 }
 
 ul {

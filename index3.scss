@@ -3,26 +3,32 @@ $colorHover: royalblue;
 
 ul {
     list-style-type: none;
-    lh {
-        font-size: larger;
-    }
     li {
         font-size: medium;
     }
+}
+%font_setting {
+    color: $colorNotHover;
+    font-size: 30px;
+}
+%font_setting:hover {
+    color: $colorHover;
 }
 #mac {
     float: left;
     width: 500px;
 }
 #MacTitle {
-    color: $colorNotHover;
+    @extend %font_setting;
+    font-size: 25px;
 }
 #MacTitle:hover {
-    color: $colorHover;
+    @extend %font_setting, :hover;
+    font-size: 25px;
 }
 .goForMore {
-    color: $colorNotHover;
+    @extend %font_setting;
 }
 .goForMore:hover {
-    color: $colorHover;
+    @extend %font_setting, :hover;
 }

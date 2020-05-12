@@ -15,4 +15,8 @@ In this page, every font's family is Lucida, which I use sass variable attribute
 #index3.html
 This is a webpage introduce what kinds of mac are available now to us and the brief history about Macintosh which also known as Mac.
 When introducing Mac's brief history, I use a unorder list component from Bootstrap and a table component to demonstrate all kinds of Macintosh. 
-In the index3.scss file I use the nesting technique to make sure the lh tag have a large size of font and a li tag have a medium size of font. In addition I use the variable to make the not hover color be black and hover be royalblue.
+In the index3.scss file I use the nesting technique to let li tag have a medium size of font and a (list-style-type: none) of unorder list. In addition I use the variable to make the not hover color be black and hover be royalblue.
+also using a inheritance to set up for a tag to change their color and control the font-size.
+
+#index4.html
+In this website, I introduce a little part of the story about The birth of iPhone. In order to demonstrate these stories, I use the bootstrap table component again.

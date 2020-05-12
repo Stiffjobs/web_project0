@@ -1,11 +1,32 @@
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
-#mac {
-    float: left;
-    width: 500px;
+ul lh {
+  font-size: large;
 }
 ul li {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
+  font-size: medium;
 }
+
+#mac {
+  float: left;
+  width: 650px;
+}
+
+#MacTitle {
+  color: black;
+}
+
+#MacTitle:hover {
+  color: royalblue;
+}
+
+.goForMore {
+  color: black;
+}
+
+.goForMore:hover {
+  color: royalblue;
+}
+
+/*# sourceMappingURL=index3.css.map */

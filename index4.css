@@ -1,0 +1,17 @@
+table {
+    width: 45rem;
+    margin-left: 1rem;
+}
+td {
+    padding-bottom: 1rem;
+}
+@media (max-width: 300px) {
+    body {
+        background-color: yellow;
+    }
+}
+@media (min-width 299px) {
+    body {
+        background-color: lightblue;
+    }
+}

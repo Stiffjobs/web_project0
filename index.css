@@ -6,6 +6,24 @@ body {
     background-size: 750px;
     background-position-y: 10rem;
 }
+h5 {
+    font-style: inherit;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 1rem;
+}
+@media (min-width: 743px) {
+    h5::before {
+        content: "Welcome to Apple intro";
+    }
+}
+@media (max-width: 742px) {
+    h5::before {
+        content: "Welcome";
+    }
+    body {
+        background-size: 550px;
+    }
+}
 .gotoOther {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 22px;

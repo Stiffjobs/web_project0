@@ -1,3 +1,6 @@
+$colorNotHover: black;
+$colorHover: royalblue;
+
 ul {
     list-style-type: none;
     lh {
@@ -10,4 +13,16 @@ ul {
 #mac {
     float: left;
     width: 500px;
+}
+#MacTitle {
+    color: $colorNotHover;
+}
+#MacTitle:hover {
+    color: $colorHover;
+}
+.goForMore {
+    color: $colorNotHover;
+}
+.goForMore:hover {
+    color: $colorHover;
 }
